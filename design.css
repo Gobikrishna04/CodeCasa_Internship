@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+ 
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+}
+.header{
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 9%;
+    background: #eee;
+    box-shadow: var(#eee);
+}
+.header .navbar a{
+    font-size: 20px;
+    margin: 1rem;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.header .navbar a:hover{
+    color: orange;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.header .icons div{
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    margin: 1rem;
+    cursor: pointer;
+    background-color: #eee;
+}
+.header .icons div:hover{
+    color: orange;
+}
+
+.home{
+    position: relative;
+}
+.homeimage{
+    width: 100%;
+    height: 600px;
+}
+.home .content{
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+}
+.home .text{
+    position: absolute;
+    top: 350px;
+    color: black;
+    right: 30px;
+    font-size: 25px;
+    font-style: cursive;
+}
+.home .homebutton{
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #FF9A00;
+}
+.home .homebutton .btn{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.home .homebutton:hover{
+    background-color: white;
+    border: 2px solid #429EBD;
+}
+.home .homebutton .btn:hover{
+    color: #429EBD;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+.heading span{
+    background-color: #FF9A00;
+    color: #fff;
+    padding: 1rem;
+    display: inline-block;
+    clip-path: polygon(50% 10%, 100% 10%, 93% 50%, 100% 90%, 0 90%, 7% 50%, 0 10%);
+}
+
+.features .box-container{
+    display: flex;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.features .box-container .box{
+    text-align: center;
+    background-color: #eee;
+    margin: 30px;
+    border: 1px solid black;
+    width: 400px;
+}
+.features .box-container .box .feature-image{
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.features .box-container .box p{
+    margin: 20px;
+    font-size: 20px;
+}
+.features .box-container .box:hover{
+    border: 3px solid black;
+    transform: scale(1.1);
+}
+
+.products .product-deck{
+    display: flex;
+    margin: 10px;
+}
+.products .product-deck .item{
+    padding-right: 20px;
+    text-align: center;
+    background-color: #eee;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.products .product-deck .item:hover{
+    border: 1px solid black;
+}
+.products .product-deck .item .button{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+}
+.products .product-deck .item .button:hover{
+    color: white;
+    background-color:#FF9A00 ;
+}
+.products .item .shoe-image{
+    width: 320px;
+    height: 250px;
+}
+.stars{
+    color: #FF9A00;
+}
+
+.products .last-deck{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 190px;
+    margin-right: 150px;
+}
+.products .last-deck .item{
+    padding-right: 20px;
+    text-align: center;
+    background-color: #eee;
+    width: 350px;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.products .last-deck .item{
+    padding-right: 20px;
+    text-align: center;
+    background-color: #eee;
+    width: 350px;
+    margin: 15px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.products .last-deck .item:hover{
+    border: 1px solid black;
+}
+.products .last-deck .item .button{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 3px;
+}
+.products .last-deck .item .button:hover{
+    color: white;
+    background-color:#FF9A00 ;
+}
+
+.review .customer-container .customer .customer-image{
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+.review .customer-container{
+    display: flex;
+    margin: 30px;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+.review .customer-container .customer{
+    margin: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+.review .customer-container .customer:hover{
+    border: 1px solid black;
+}
+.review .customer-container .customer .text{
+    margin: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #FF9A00;
+}
+.footer .box-container{
+    padding-top: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .box-container .box p{
+    font-size: 20px;
+}
+.footer .box-container .box .symbol{
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-decoration: none;
+}
+.footer .box-container .box .symbol:hover{
+    transform: scale(1.3);
+}
+.footer .box-container .box .social-media{
+    color: black;
+
+}
+.footer .box-container .box .link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.footer .box-container .box .link .details:hover{
+    padding-left: 15px;
+    letter-spacing: 3px;
+}
+.end{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
